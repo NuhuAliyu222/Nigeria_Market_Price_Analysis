@@ -11,15 +11,6 @@ The included `market_prices_illustrative.csv` is **synthetic demonstration data*
 - `src/`: reusable analysis script
 - `visualizations/`: generated charts and summary tables (created when you run the analysis)
 
-## Setup with Anaconda
-```bash
-conda create -n market-analysis python=3.12 -y
-conda activate market-analysis
-pip install -r requirements.txt
-jupyter notebook
-```
-Open `notebooks/Nigeria_Market_Price_Analysis.ipynb` and run all cells.
-
 To run the script:
 ```bash
 python src/analyze_market_prices.py
